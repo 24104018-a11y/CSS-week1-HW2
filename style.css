@@ -16,3 +16,23 @@ nav {
 nav img {
     width: 10%;
 }
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+.grid img {
+    width: 100%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
